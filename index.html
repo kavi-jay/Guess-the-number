@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess</title>
+</head>
+<style>
+    div{
+        background-color: rgb(94, 62, 94);
+        text-align: center;
+        width: 500px;
+        height: 250px;
+        margin-left: 450px;
+        margin-right: 200px;
+        margin-top: 200px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    }
+    button{
+        background-color: rgb(72, 72, 82);
+        color: antiquewhite;
+        font-size: large;
+    }
+    body{
+        background-color: rgb(139, 136, 141);
+    }
+    h1{
+        background-color: black;
+        color: aliceblue;
+       
+    }
+    input{
+        font-size: large;
+    }
+    p{
+        color:cornsilk
+       
+    }
+</style>
+<body>
+    <div>
+    <h1>Guess the Number from 1 to 5</h1>
+    <input type="text"placeholder="Enter Any Number"id="inputBox">
+    <button id="btn" onclick="checkthenumber()">Check</button>
+    <p id="result">You are Right/Wrong</p>
+    <p id="Guesscount">Available Guesses:3</p>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
